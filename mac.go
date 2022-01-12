@@ -1,4 +1,4 @@
-package main
+package mac
 
 import (
 	"crypto/rand"
