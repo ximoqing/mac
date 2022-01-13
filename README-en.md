@@ -6,15 +6,15 @@
 [![Release](https://img.shields.io/badge/Release-0.0.1-red)](https://github.com/ximoqing/mac/releases)
 
 
-#### 介绍
-mac地址生成
+#### introduce
+rand mac address generation
 
-#### 安装
+#### install
 ```
 go get github.com/ximoqing/mac
 ```
 
-#### 示例
+#### Example
 ```go
 func main() {
     mac := mac.MacInit()
