@@ -16,9 +16,18 @@ go get github.com/ximoqing/mac
 
 #### Example
 ```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/ximoqing/mac"
+)
+
 func main() {
-    mac := mac.MacInit()
-    fmt.Println(mac)
+	n := mac.MacSingle()
+	fmt.Println(n)
 }
+
 
 ```
